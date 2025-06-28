@@ -75,3 +75,21 @@ landform = geomorphon_of_cell(
          forms=True
      )
 ```
+
+---
+
+**Requirements**
+
+To run this script, you need the following Python packages:
+
+- `numpy` – For array and mathematical operations
+- `rasterio` – For reading and writing raster (GeoTIFF) data
+- `argparse` – For parsing command-line arguments (built-in)
+- `math`, `sys`, `time`, `pathlib` – Standard Python libraries
+- `typing` – For type hints (Python 3.5+)
+
+Install required packages with:
+
+```bash
+pip install numpy>=1.20 rasterio>=1.3
+
