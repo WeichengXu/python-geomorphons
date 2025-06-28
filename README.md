@@ -13,9 +13,25 @@ A Python port of the `WhiteboxTools` geomorphon landform classification algorith
 
 * https://www.sciencedirect.com/science/article/abs/pii/S0169555X12005028
 
+---
+
 This tool supports:
 * 10-class forms (e.g., peak, spur, valley)
 * Global ternary codes (GTCs)
+
+
+| Class ID | Landform    |
+|----------|-------------|
+| 1        | Flat        |
+| 2        | Peak        |
+| 3        | Ridge       |
+| 4        | Shoulder    |
+| 5        | Spur        |
+| 6        | Slope       |
+| 7        | Hollow      |
+| 8        | Footslope   |
+| 9        | Valley      |
+| 10       | Pit         |
 
 ---
 **Functions**
